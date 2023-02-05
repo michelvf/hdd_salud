@@ -1,0 +1,620 @@
+
+  -- General Information --
+
+   Application Information
+   -------------------------
+    Installed Version . . . . . . . . . . . . . . . . : Hard Disk Sentinel 0.19b
+    Current Date And Time . . . . . . . . . . . . . . : 21-1-23 14:04:11
+
+   Computer Information
+   ----------------------
+    Computer Name . . . . . . . . . . . . . . . . . . : xaire.linuxij.cu
+    MAC Address . . . . . . . . . . . . . . . . . . . : 6e:03:37:2a:1f:df
+
+   System Information
+   --------------------
+    OS Version  . . . . . . . . . . . . . . . . . . . : Linux : 6.1.3-arch1-1 (#1 SMP PREEMPT_DYNAMIC Wed, 04 Jan 2023 16:28:15 +0000)
+    Process ID  . . . . . . . . . . . . . . . . . . . : 2505
+    Uptime  . . . . . . . . . . . . . . . . . . . . . : 493 sec (0 days, 0 hours, 8 min, 13 sec)
+
+
+
+  -- Physical Disk Information - Disk: #0: TEAML5Lite3D120G --
+
+   Hard Disk Summary
+   -------------------
+    Hard Disk Number  . . . . . . . . . . . . . . . . : 0
+    Hard Disk Device  . . . . . . . . . . . . . . . . : /dev/sda
+    Interface . . . . . . . . . . . . . . . . . . . . : S-ATA Gen3, 6 Gbps
+    Hard Disk Model ID  . . . . . . . . . . . . . . . : TEAML5Lite3D120G
+    Firmware Revision . . . . . . . . . . . . . . . . : Q0410A
+    Hard Disk Serial Number . . . . . . . . . . . . . : AA20181228A0104480
+    SSD Controller  . . . . . . . . . . . . . . . . . : Silicon Motion SM2258
+    Total Size  . . . . . . . . . . . . . . . . . . . : 114473 MB
+    Current Temperature . . . . . . . . . . . . . . . : ?
+    Maximum Temperature (during Entire Lifespan)  . . : ?
+    Power On Time . . . . . . . . . . . . . . . . . . : 154 days, 12 hours
+    Estimated Remaining Lifetime  . . . . . . . . . . : more than 1000 days
+    Lifetime Writes . . . . . . . . . . . . . . . . . : 997.94 GB
+    Health  . . . . . . . . . . . . . . . . . . . . . : #################### 100 % (Excellent)
+    Performance . . . . . . . . . . . . . . . . . . . : #################### 100 % (Excellent)
+
+    The status of the solid state disk is PERFECT. Problematic or weak sectors were not found. 
+    The health is determined by SSD specific S.M.A.R.T. attribute(s):  #169 Remain Life Percentage
+      No actions needed.
+
+   ATA Information
+   -----------------
+    Hard Disk Cylinders . . . . . . . . . . . . . . . : 232581
+    Hard Disk Heads . . . . . . . . . . . . . . . . . : 16
+    Hard Disk Sectors . . . . . . . . . . . . . . . . : 63
+    ATA Revision  . . . . . . . . . . . . . . . . . . : 9
+    Transport Version . . . . . . . . . . . . . . . . : SATA Rev 3.2
+    Total Sectors . . . . . . . . . . . . . . . . . . : 234441648
+    Bytes Per Sector  . . . . . . . . . . . . . . . . : 512
+    Multiple Sectors  . . . . . . . . . . . . . . . . : 2
+    Error Correction Bytes  . . . . . . . . . . . . . : 0
+    Unformatted Capacity  . . . . . . . . . . . . . . : 114473 MB
+    Maximum PIO Mode  . . . . . . . . . . . . . . . . : 1
+    Maximum Multiword DMA Mode  . . . . . . . . . . . : 2
+    Highest Possible Transfer Rate  . . . . . . . . . : S-ATA Gen3 Signaling Speed (6 Gps)
+    Negotiated Transfer Rate  . . . . . . . . . . . . : S-ATA II Signaling Speed (3 Gps)
+    Minimum Multiword DMA Transfer Time . . . . . . . : 120 ns
+    Recommended Multiword DMA Transfer Time . . . . . : 120 ns
+    Minimum PIO Transfer Time Without IORDY . . . . . : 120 ns
+    Minimum PIO Transfer Time With IORDY  . . . . . . : 120 ns
+    ATA Control Byte  . . . . . . . . . . . . . . . . : Valid
+    ATA Checksum Value  . . . . . . . . . . . . . . . : Valid
+
+   Acoustic Management Configuration
+   -----------------------------------
+    Acoustic Management . . . . . . . . . . . . . . . : Not supported
+    Acoustic Management . . . . . . . . . . . . . . . : Disabled
+    Current Acoustic Level  . . . . . . . . . . . . . : Default (00h)
+    Recommended Acoustic Level  . . . . . . . . . . . : Default (00h)
+
+   ATA Features
+   --------------
+    Read Ahead Buffer . . . . . . . . . . . . . . . . : Supported, Enabled
+    DMA . . . . . . . . . . . . . . . . . . . . . . . : Supported
+    Ultra DMA . . . . . . . . . . . . . . . . . . . . : Supported
+    S.M.A.R.T.  . . . . . . . . . . . . . . . . . . . : Supported
+    Power Management  . . . . . . . . . . . . . . . . : Supported
+    Write Cache . . . . . . . . . . . . . . . . . . . : Supported
+    Host Protected Area . . . . . . . . . . . . . . . : Supported
+    HPA Security Extensions . . . . . . . . . . . . . : Supported
+    Advanced Power Management . . . . . . . . . . . . : Not supported
+    Extended Power Management . . . . . . . . . . . . : Not supported
+    Power Up In Standby . . . . . . . . . . . . . . . : Not supported
+    48-bit LBA Addressing . . . . . . . . . . . . . . : Supported
+    Device Configuration Overlay  . . . . . . . . . . : Supported
+    IORDY Support . . . . . . . . . . . . . . . . . . : Supported
+    Read/Write DMA Queue  . . . . . . . . . . . . . . : Not supported
+    NOP Command . . . . . . . . . . . . . . . . . . . : Supported
+    Trusted Computing . . . . . . . . . . . . . . . . : Not supported
+    64-bit World Wide ID  . . . . . . . . . . . . . . : Not supported
+    Streaming . . . . . . . . . . . . . . . . . . . . : Not supported
+    Media Card Pass Through . . . . . . . . . . . . . : Not supported
+    General Purpose Logging . . . . . . . . . . . . . : Supported
+    Error Logging . . . . . . . . . . . . . . . . . . : Supported
+    CFA Feature Set . . . . . . . . . . . . . . . . . : Not supported
+    CFast Device  . . . . . . . . . . . . . . . . . . : Not supported
+    Long Physical Sectors (1) . . . . . . . . . . . . : Not supported
+    Long Logical Sectors  . . . . . . . . . . . . . . : Not supported
+    Write-Read-Verify . . . . . . . . . . . . . . . . : Not supported
+    NV Cache Feature  . . . . . . . . . . . . . . . . : Not supported
+    NV Cache Power Mode . . . . . . . . . . . . . . . : Not supported
+    NV Cache Size . . . . . . . . . . . . . . . . . . : Not supported
+    Free-fall Control . . . . . . . . . . . . . . . . : Not supported
+    Free-fall Control Sensitivity . . . . . . . . . . : Not supported
+    Service Interrupt . . . . . . . . . . . . . . . . : Not supported
+    IDLE IMMEDIATE Command With UNLOAD Feature  . . . : Not supported
+    SCT Command Transport . . . . . . . . . . . . . . : Supported
+    SCT Error Recovery Control  . . . . . . . . . . . : Not supported
+    Nominal Media Rotation Rate . . . . . . . . . . . : Non-rotating Media (SSD)
+    Zoned Capabilities  . . . . . . . . . . . . . . . : Not supported
+
+   SSD Features
+   --------------
+    Data Set Management . . . . . . . . . . . . . . . : Supported
+    TRIM Command  . . . . . . . . . . . . . . . . . . : Supported
+    Deterministic Read After TRIM . . . . . . . . . . : Supported
+    Read Zeroes After TRIM  . . . . . . . . . . . . . : Supported
+
+   S.M.A.R.T. Details
+   --------------------
+    Off-line Data Collection Status . . . . . . . . . : Successfully Completed
+    Self Test Execution Status  . . . . . . . . . . . : Successfully Completed
+    Total Time To Complete Off-line Data Collection . : 120 seconds
+    Execute Off-line Immediate  . . . . . . . . . . . : Supported
+    Abort/restart Off-line By Host  . . . . . . . . . : Not supported
+    Off-line Read Scanning  . . . . . . . . . . . . . : Not supported
+    Short Self-test . . . . . . . . . . . . . . . . . : Supported
+    Extended Self-test  . . . . . . . . . . . . . . . : Supported
+    Conveyance Self-test  . . . . . . . . . . . . . . : Supported
+    Selective Self-Test . . . . . . . . . . . . . . . : Supported
+    Save Data Before/After Power Saving Mode  . . . . : Supported
+    Enable/Disable Attribute Autosave . . . . . . . . : Supported
+    Error Logging Capability  . . . . . . . . . . . . : Supported
+    Short Self-test Estimated Time  . . . . . . . . . : 1 minutes
+    Extended Self-test Estimated Time . . . . . . . . : 2 minutes
+    Conveyance Self-test Estimated Time . . . . . . . : 1 minutes
+
+   Security Mode
+   ---------------
+    Security Mode . . . . . . . . . . . . . . . . . . : Supported
+    Security Erase  . . . . . . . . . . . . . . . . . : Supported
+    Security Erase Time . . . . . . . . . . . . . . . : 2 minutes
+    Security Enhanced Erase Feature . . . . . . . . . : Supported
+    Security Enhanced Erase Time  . . . . . . . . . . : 2 minutes
+    Security Enabled  . . . . . . . . . . . . . . . . : No
+    Security Locked . . . . . . . . . . . . . . . . . : No
+    Security Frozen . . . . . . . . . . . . . . . . . : Yes
+    Security Counter Expired  . . . . . . . . . . . . : No
+    Security Level  . . . . . . . . . . . . . . . . . : High
+    Device Encrypts All User Data . . . . . . . . . . : No
+    Sanitize  . . . . . . . . . . . . . . . . . . . . : Supported
+    Overwrite . . . . . . . . . . . . . . . . . . . . : Not supported
+    Crypto Scramble . . . . . . . . . . . . . . . . . : Not supported
+    Block Erase . . . . . . . . . . . . . . . . . . . : Supported
+    Sanitize Antifreeze Lock  . . . . . . . . . . . . : Not supported
+    ACS-3 Commands Allowed By Sanitize  . . . . . . . : No
+
+   Serial ATA Features
+   ---------------------
+    S-ATA Compliance  . . . . . . . . . . . . . . . . : Yes
+    S-ATA I Signaling Speed (1.5 Gps) . . . . . . . . : Supported
+    S-ATA II Signaling Speed (3 Gps)  . . . . . . . . : Supported
+    S-ATA Gen3 Signaling Speed (6 Gps)  . . . . . . . : Supported
+    Receipt Of Power Management Requests From Host  . : Not supported
+    PHY Event Counters  . . . . . . . . . . . . . . . : Supported
+    Non-Zero Buffer Offsets In DMA Setup FIS  . . . . : Not supported
+    DMA Setup Auto-Activate Optimization  . . . . . . : Supported, Disabled
+    Device Initiating Interface Power Management  . . : Not supported
+    In-Order Data Delivery  . . . . . . . . . . . . . : Not supported
+    Asynchronous Notification . . . . . . . . . . . . : Not supported
+    Software Settings Preservation  . . . . . . . . . : Supported, Enabled
+    Native Command Queuing (NCQ)  . . . . . . . . . . : Supported
+    Queue Length  . . . . . . . . . . . . . . . . . . : 32
+    NCQ Streaming . . . . . . . . . . . . . . . . . . : Not supported
+    NCQ Autosense . . . . . . . . . . . . . . . . . . : Not supported
+    Automatic Partial To Slumber Translations . . . . : Not supported
+    Rebuild Assist  . . . . . . . . . . . . . . . . . : Not supported
+    Hybrid Information  . . . . . . . . . . . . . . . : Not supported
+    Device Sleep (DevSleep) . . . . . . . . . . . . . : Supported, Disabled
+    DevSleep To ReducedPwrState . . . . . . . . . . . : Not supported
+
+   Disk Information
+   ------------------
+    Disk Information
+    Form Factor . . . . . . . . . . . . . . . . . . . : 2.5"
+    Capacity  . . . . . . . . . . . . . . . . . . . . : 120 GB (120 x 1,000,000,000 bytes)
+    Disk Interface  . . . . . . . . . . . . . . . . . : Serial-ATA/600
+    Device Type . . . . . . . . . . . . . . . . . . . : 3D TLC NAND
+    Width . . . . . . . . . . . . . . . . . . . . . . : 69.8 mm (2.7 inch)
+    Depth . . . . . . . . . . . . . . . . . . . . . . : 100.0 mm (3.9 inch)
+    Height  . . . . . . . . . . . . . . . . . . . . . : 9.5 mm (0.4 inch)
+
+   S.M.A.R.T.
+   ------------
+No.  Attribute                Thre.. Value  Worst  Data                Status                   Flags                                                  
+1    Read Error Rate          0      100    100    000000000000        OK (Always passing)                                                             
+5    Reallocated Sectors Co.. 0      100    100    000000000000        OK (Always passing)                                                             
+9    Power On Time Count      0      100    100    000000000E7C        OK (Always passing)                                                             
+12   Power Cycle Count        0      100    100    0000000006BC        OK (Always passing)                                                             
+160  Uncorrectable Sectors .. 0      100    100    000000000000        OK (Always passing)                                                             
+161  Number of Valid Spare .. 0      100    100    000000000055        OK (Always passing)                                                             
+163  Number of Initial Inva.. 0      100    100    000000000004        OK (Always passing)                                                             
+164  Total Erase Count        0      100    100    0000000024CA        OK (Always passing)                                                             
+165  Maximum Erase Count      0      100    100    00000000001B        OK (Always passing)                                                             
+166  Minimum Erase Count      0      100    100    000000000001        OK (Always passing)                                                             
+167  Average Erase Count      0      100    100    000000000007        OK (Always passing)                                                             
+168  Max Erase Count of Spec  0      100    100    0000000003E8        OK (Always passing)                                                             
+169  Remain Life Percentage   0      100    100    000000000064        OK (Always passing)                                                             
+175  Program Fail Count In .. 0      100    100    000000000000        OK (Always passing)                                                             
+176  Erase Fail Count In Wo.. 0      100    100    000000000000        OK (Always passing)                                                             
+177  Total Wearlevel Count    50     100    100    000000000005        OK                                                                              
+178  Runtime Invalid Block .. 0      100    100    000000000000        OK (Always passing)                                                             
+181  Total Program Fail Count 0      100    100    000000000000        OK (Always passing)                                                             
+182  Total Erase Fail Count   0      100    100    000000000000        OK (Always passing)                                                             
+192  Power-off Retract Count  0      100    100    00000000007F        OK (Always passing)                                                             
+194  Controlled Temperature   0      100    100    000000000000        OK (Always passing)                                                             
+195  Hardware ECC Recovered   0      100    100    000000000000        OK (Always passing)                                                             
+196  Reallocation Event Count 16     100    100    000000000000        OK                                                                              
+197  Current Pending Sector.. 0      100    100    000000000000        OK (Always passing)                                                             
+198  Uncorrectable Error Co.. 0      100    100    000000000000        OK (Always passing)                                                             
+199  UltraDMA CRC Error Count 50     100    100    000000000000        OK                       Statistical, Critical                                  
+232  Available Reserved Space 0      100    100    000000000064        OK (Always passing)                                                             
+241  Total Data Written (32.. 0      100    100    000000007CBE        OK (Always passing)                                                             
+242  Total Data Read (32MB)   0      100    100    0000000109E2        OK (Always passing)                                                             
+245  Total Flash Write Coun.. 0      100    100    000000004994        OK (Always passing)                                                             
+
+
+
+  -- Physical Disk Information - Disk: #1: WDC WD10EZEX-22MFCA0 --
+
+   Hard Disk Summary
+   -------------------
+    Hard Disk Number  . . . . . . . . . . . . . . . . : 1
+    Hard Disk Device  . . . . . . . . . . . . . . . . : /dev/sdb
+    Interface . . . . . . . . . . . . . . . . . . . . : S-ATA Gen3, 6 Gbps
+    Hard Disk Model ID  . . . . . . . . . . . . . . . : WDC WD10EZEX-22MFCA0
+    Firmware Revision . . . . . . . . . . . . . . . . : 01.01A01
+    Hard Disk Serial Number . . . . . . . . . . . . . : WD-WCC6Y6RZJ0VJ
+    Total Size  . . . . . . . . . . . . . . . . . . . : 953870 MB
+    Current Temperature . . . . . . . . . . . . . . . : 30 °C (86 °F)
+    Maximum Temperature (during Entire Lifespan)  . . : 50 °C (122 °F)
+    Power On Time . . . . . . . . . . . . . . . . . . : 124 days, 12 hours
+    Estimated Remaining Lifetime  . . . . . . . . . . : more than 1000 days
+    Health  . . . . . . . . . . . . . . . . . . . . . : #################### 100 % (Excellent)
+    Performance . . . . . . . . . . . . . . . . . . . : #################### 100 % (Excellent)
+
+    The hard disk status is PERFECT. Problematic or weak sectors were not found and there are no spin up or data transfer errors. 
+      No actions needed.
+
+   ATA Information
+   -----------------
+    Hard Disk Cylinders . . . . . . . . . . . . . . . : 1938021
+    Hard Disk Heads . . . . . . . . . . . . . . . . . : 16
+    Hard Disk Sectors . . . . . . . . . . . . . . . . : 63
+    ATA Revision  . . . . . . . . . . . . . . . . . . : 10
+    Transport Version . . . . . . . . . . . . . . . . : SATA Rev 3.1
+    Total Sectors . . . . . . . . . . . . . . . . . . : 244190646
+    Bytes Per Sector  . . . . . . . . . . . . . . . . : 4096 [Advanced Format]
+    Multiple Sectors  . . . . . . . . . . . . . . . . : 16
+    Error Correction Bytes  . . . . . . . . . . . . . : 0
+    Unformatted Capacity  . . . . . . . . . . . . . . : 953870 MB
+    Maximum PIO Mode  . . . . . . . . . . . . . . . . : 1
+    Maximum Multiword DMA Mode  . . . . . . . . . . . : 2
+    Highest Possible Transfer Rate  . . . . . . . . . : S-ATA Gen3 Signaling Speed (6 Gps)
+    Negotiated Transfer Rate  . . . . . . . . . . . . : S-ATA II Signaling Speed (3 Gps)
+    Minimum Multiword DMA Transfer Time . . . . . . . : 120 ns
+    Recommended Multiword DMA Transfer Time . . . . . : 120 ns
+    Minimum PIO Transfer Time Without IORDY . . . . . : 120 ns
+    Minimum PIO Transfer Time With IORDY  . . . . . . : 120 ns
+    ATA Control Byte  . . . . . . . . . . . . . . . . : Valid
+    ATA Checksum Value  . . . . . . . . . . . . . . . : Valid
+
+   Acoustic Management Configuration
+   -----------------------------------
+    Acoustic Management . . . . . . . . . . . . . . . : Not supported
+    Acoustic Management . . . . . . . . . . . . . . . : Disabled
+    Current Acoustic Level  . . . . . . . . . . . . . : Default (00h)
+    Recommended Acoustic Level  . . . . . . . . . . . : Default (00h)
+
+   ATA Features
+   --------------
+    Read Ahead Buffer . . . . . . . . . . . . . . . . : Supported, Enabled
+    DMA . . . . . . . . . . . . . . . . . . . . . . . : Supported
+    Ultra DMA . . . . . . . . . . . . . . . . . . . . : Supported
+    S.M.A.R.T.  . . . . . . . . . . . . . . . . . . . : Supported
+    Power Management  . . . . . . . . . . . . . . . . : Supported
+    Write Cache . . . . . . . . . . . . . . . . . . . : Supported
+    Host Protected Area . . . . . . . . . . . . . . . : Supported
+    HPA Security Extensions . . . . . . . . . . . . . : Supported
+    Advanced Power Management . . . . . . . . . . . . : Not supported
+    Extended Power Management . . . . . . . . . . . . : Not supported
+    Power Up In Standby . . . . . . . . . . . . . . . : Supported
+    48-bit LBA Addressing . . . . . . . . . . . . . . : Supported
+    Device Configuration Overlay  . . . . . . . . . . : Supported
+    IORDY Support . . . . . . . . . . . . . . . . . . : Supported
+    Read/Write DMA Queue  . . . . . . . . . . . . . . : Not supported
+    NOP Command . . . . . . . . . . . . . . . . . . . : Supported
+    Trusted Computing . . . . . . . . . . . . . . . . : Not supported
+    64-bit World Wide ID  . . . . . . . . . . . . . . : 50014EE264EA8C5C
+    Streaming . . . . . . . . . . . . . . . . . . . . : Not supported
+    Media Card Pass Through . . . . . . . . . . . . . : Not supported
+    General Purpose Logging . . . . . . . . . . . . . : Supported
+    Error Logging . . . . . . . . . . . . . . . . . . : Supported
+    CFA Feature Set . . . . . . . . . . . . . . . . . : Not supported
+    CFast Device  . . . . . . . . . . . . . . . . . . : Not supported
+    Long Physical Sectors (8) . . . . . . . . . . . . : Supported
+    Long Logical Sectors  . . . . . . . . . . . . . . : Not supported
+    Write-Read-Verify . . . . . . . . . . . . . . . . : Not supported
+    NV Cache Feature  . . . . . . . . . . . . . . . . : Not supported
+    NV Cache Power Mode . . . . . . . . . . . . . . . : Not supported
+    NV Cache Size . . . . . . . . . . . . . . . . . . : Not supported
+    Free-fall Control . . . . . . . . . . . . . . . . : Not supported
+    Free-fall Control Sensitivity . . . . . . . . . . : Not supported
+    Service Interrupt . . . . . . . . . . . . . . . . : Not supported
+    IDLE IMMEDIATE Command With UNLOAD Feature  . . . : Not supported
+    SCT Command Transport . . . . . . . . . . . . . . : Supported
+    SCT Error Recovery Control  . . . . . . . . . . . : Not supported
+    Nominal Media Rotation Rate . . . . . . . . . . . : 7200 RPM
+    Nominal Form Factor . . . . . . . . . . . . . . . : 3.5 inch
+    Zoned Capabilities  . . . . . . . . . . . . . . . : Not supported
+
+   SSD Features
+   --------------
+    Data Set Management . . . . . . . . . . . . . . . : Not supported
+    TRIM Command  . . . . . . . . . . . . . . . . . . : Not supported
+    Deterministic Read After TRIM . . . . . . . . . . : Not supported
+    Read Zeroes After TRIM  . . . . . . . . . . . . . : Not supported
+
+   S.M.A.R.T. Details
+   --------------------
+    Off-line Data Collection Status . . . . . . . . . : Successfully Completed
+    Self Test Execution Status  . . . . . . . . . . . : Successfully Completed
+    Total Time To Complete Off-line Data Collection . : 11520 seconds
+    Execute Off-line Immediate  . . . . . . . . . . . : Supported
+    Abort/restart Off-line By Host  . . . . . . . . . : Not supported
+    Off-line Read Scanning  . . . . . . . . . . . . . : Supported
+    Short Self-test . . . . . . . . . . . . . . . . . : Supported
+    Extended Self-test  . . . . . . . . . . . . . . . : Supported
+    Conveyance Self-test  . . . . . . . . . . . . . . : Supported
+    Selective Self-Test . . . . . . . . . . . . . . . : Supported
+    Save Data Before/After Power Saving Mode  . . . . : Supported
+    Enable/Disable Attribute Autosave . . . . . . . . : Supported
+    Error Logging Capability  . . . . . . . . . . . . : Supported
+    Short Self-test Estimated Time  . . . . . . . . . : 2 minutes
+    Extended Self-test Estimated Time . . . . . . . . : 119 minutes
+    Conveyance Self-test Estimated Time . . . . . . . : 5 minutes
+
+   Security Mode
+   ---------------
+    Security Mode . . . . . . . . . . . . . . . . . . : Supported
+    Security Erase  . . . . . . . . . . . . . . . . . : Supported
+    Security Erase Time . . . . . . . . . . . . . . . : 126 minutes
+    Security Enhanced Erase Feature . . . . . . . . . : Supported
+    Security Enhanced Erase Time  . . . . . . . . . . : 126 minutes
+    Security Enabled  . . . . . . . . . . . . . . . . : No
+    Security Locked . . . . . . . . . . . . . . . . . : No
+    Security Frozen . . . . . . . . . . . . . . . . . : Yes
+    Security Counter Expired  . . . . . . . . . . . . : No
+    Security Level  . . . . . . . . . . . . . . . . . : High
+    Device Encrypts All User Data . . . . . . . . . . : No
+    Sanitize  . . . . . . . . . . . . . . . . . . . . : Not supported
+    Overwrite . . . . . . . . . . . . . . . . . . . . : Not supported
+    Crypto Scramble . . . . . . . . . . . . . . . . . : Not supported
+    Block Erase . . . . . . . . . . . . . . . . . . . : Not supported
+    Sanitize Antifreeze Lock  . . . . . . . . . . . . : Not supported
+    ACS-3 Commands Allowed By Sanitize  . . . . . . . : No
+
+   Serial ATA Features
+   ---------------------
+    S-ATA Compliance  . . . . . . . . . . . . . . . . : Yes
+    S-ATA I Signaling Speed (1.5 Gps) . . . . . . . . : Supported
+    S-ATA II Signaling Speed (3 Gps)  . . . . . . . . : Supported
+    S-ATA Gen3 Signaling Speed (6 Gps)  . . . . . . . : Supported
+    Receipt Of Power Management Requests From Host  . : Supported
+    PHY Event Counters  . . . . . . . . . . . . . . . : Supported
+    Non-Zero Buffer Offsets In DMA Setup FIS  . . . . : Not supported
+    DMA Setup Auto-Activate Optimization  . . . . . . : Supported, Disabled
+    Device Initiating Interface Power Management  . . : Not supported
+    In-Order Data Delivery  . . . . . . . . . . . . . : Not supported
+    Asynchronous Notification . . . . . . . . . . . . : Not supported
+    Software Settings Preservation  . . . . . . . . . : Supported, Enabled
+    Native Command Queuing (NCQ)  . . . . . . . . . . : Supported
+    Queue Length  . . . . . . . . . . . . . . . . . . : 32
+    NCQ Streaming . . . . . . . . . . . . . . . . . . : Not supported
+    NCQ Autosense . . . . . . . . . . . . . . . . . . : Not supported
+    Automatic Partial To Slumber Translations . . . . : Not supported
+    Rebuild Assist  . . . . . . . . . . . . . . . . . : Not supported
+    Hybrid Information  . . . . . . . . . . . . . . . : Not supported
+    Device Sleep (DevSleep) . . . . . . . . . . . . . : Not supported
+    DevSleep To ReducedPwrState . . . . . . . . . . . : Not supported
+
+   Disk Information
+   ------------------
+    Disk Family . . . . . . . . . . . . . . . . . . . : Caviar Blue
+    Form Factor . . . . . . . . . . . . . . . . . . . : 3.5" 
+    Capacity  . . . . . . . . . . . . . . . . . . . . : 1 TB (1 x 1,000,000,000,000 bytes)
+    Number Of Disks . . . . . . . . . . . . . . . . . : ?
+    Number Of Heads . . . . . . . . . . . . . . . . . : ?
+    Rotational Speed  . . . . . . . . . . . . . . . . : 7200 RPM
+    Rotation Time . . . . . . . . . . . . . . . . . . : 8.33 ms
+    Average Rotational Latency  . . . . . . . . . . . : 4.17 ms
+    Disk Interface  . . . . . . . . . . . . . . . . . : Serial-ATA/600
+    Buffer-Host Max. Rate . . . . . . . . . . . . . . : 600 MB/seconds
+    Buffer Size . . . . . . . . . . . . . . . . . . . : 65536 KB
+    Drive Ready Time (typical)  . . . . . . . . . . . : ? seconds
+    Average Seek Time . . . . . . . . . . . . . . . . : ? ms
+    Track To Track Seek Time  . . . . . . . . . . . . : ? ms
+    Full Stroke Seek Time . . . . . . . . . . . . . . : ? ms
+    Width . . . . . . . . . . . . . . . . . . . . . . : 101.6 mm (4.0 inch)
+    Depth . . . . . . . . . . . . . . . . . . . . . . : 147.0 mm (5.8 inch)
+    Height  . . . . . . . . . . . . . . . . . . . . . : 25.4 mm (1.0 inch)
+    Weight  . . . . . . . . . . . . . . . . . . . . . : 440 grams (1.0 pounds)
+    Required Power For Spinup . . . . . . . . . . . . : ? mA
+    Power Required (seek) . . . . . . . . . . . . . . : ? W
+    Power Required (idle) . . . . . . . . . . . . . . : ? W
+    Power Required (standby)  . . . . . . . . . . . . : ? W
+    Manufacturer  . . . . . . . . . . . . . . . . . . : Western Digital Corporation
+    Manufacturer Website  . . . . . . . . . . . . . . : http://www.westerndigital.com/en/products
+
+   S.M.A.R.T.
+   ------------
+No.  Attribute                Thre.. Value  Worst  Data                Status                   Flags                                                  
+1    Raw Read Error Rate      51     200    200    000000000000        OK                       Self Preserving, Error-Rate, Performance, Statistica.. 
+3    Spin Up Time             21     170    169    00000000099A        OK                       Self Preserving, Performance, Statistical, Critical    
+4    Start/Stop Count         0      99     99     0000000005AD        OK (Always passing)      Self Preserving, Event Count, Statistical              
+5    Reallocated Sectors Co.. 140    200    200    000000000000        OK                       Self Preserving, Event Count, Statistical, Critical    
+7    Seek Error Rate          0      200    200    000000000000        OK (Always passing)      Self Preserving, Error-Rate, Performance, Statistical  
+9    Power On Time Count      0      96     96     000000000BAC        OK (Always passing)      Self Preserving, Event Count, Statistical              
+10   Spin Retry Count         0      100    100    000000000000        OK (Always passing)      Self Preserving, Event Count, Statistical              
+11   Drive Calibration Retr.. 0      100    100    000000000000        OK (Always passing)      Self Preserving, Event Count, Statistical              
+12   Drive Power Cycle Count  0      99     99     0000000005AD        OK (Always passing)      Self Preserving, Event Count, Statistical              
+192  Power off Retract Cycl.. 0      200    200    0000000002E5        OK (Always passing)      Self Preserving, Event Count, Statistical              
+193  Load/Unload Cycle Count  0      200    200    000000000662        OK (Always passing)      Self Preserving, Event Count, Statistical              
+194  Disk Temperature         0      113    93     00000000001E        OK (Always passing)      Self Preserving, Statistical                           
+196  Reallocation Event Count 0      200    200    000000000000        OK (Always passing)      Self Preserving, Event Count, Statistical              
+197  Current Pending Sector.. 0      200    200    000000000000        OK (Always passing)      Self Preserving, Event Count, Statistical              
+198  Off-Line Uncorrectable.. 0      200    200    000000000000        OK (Always passing)      Self Preserving, Event Count                           
+199  Ultra ATA CRC Error Co.. 0      200    200    000000000000        OK (Always passing)      Self Preserving, Event Count, Statistical              
+200  Write Error Rate         0      200    200    000000000000        OK (Always passing)      Error-Rate                                             
+
+
+
+  -- Physical Disk Information - Disk: #2: Generic- Compact Flash --
+
+   Hard Disk Summary
+   -------------------
+    Hard Disk Number  . . . . . . . . . . . . . . . . : 2
+    Hard Disk Device  . . . . . . . . . . . . . . . . : /dev/sdc
+    Interface . . . . . . . . . . . . . . . . . . . . : SCSI
+    Hard Disk Model ID  . . . . . . . . . . . . . . . : Generic- Compact Flash
+    Firmware Revision . . . . . . . . . . . . . . . . : 1.00
+    Hard Disk Serial Number . . . . . . . . . . . . . : ?
+    Total Size  . . . . . . . . . . . . . . . . . . . : 0 MB
+    Current Temperature . . . . . . . . . . . . . . . : ?
+    Maximum Temperature (during Entire Lifespan)  . . : ?
+    Health  . . . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+    Performance . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+
+   Properties
+   ------------
+    Vendor Information  . . . . . . . . . . . . . . . : ?
+    Status  . . . . . . . . . . . . . . . . . . . . . : OK
+    Version . . . . . . . . . . . . . . . . . . . . . : 0
+    Device Type . . . . . . . . . . . . . . . . . . . : Disk
+    ASC . . . . . . . . . . . . . . . . . . . . . . . : 0
+    ASCQ  . . . . . . . . . . . . . . . . . . . . . . : 0
+
+   SCSI Information
+   ------------------
+    Removable . . . . . . . . . . . . . . . . . . . . : Supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Not supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Disabled
+
+
+
+  -- Physical Disk Information - Disk: #3: Generic- SM/xD-Picture --
+
+   Hard Disk Summary
+   -------------------
+    Hard Disk Number  . . . . . . . . . . . . . . . . : 3
+    Hard Disk Device  . . . . . . . . . . . . . . . . : /dev/sdd
+    Interface . . . . . . . . . . . . . . . . . . . . : SCSI
+    Hard Disk Model ID  . . . . . . . . . . . . . . . : Generic- SM/xD-Picture
+    Firmware Revision . . . . . . . . . . . . . . . . : 1.00
+    Hard Disk Serial Number . . . . . . . . . . . . . : ?
+    Total Size  . . . . . . . . . . . . . . . . . . . : 0 MB
+    Current Temperature . . . . . . . . . . . . . . . : ?
+    Maximum Temperature (during Entire Lifespan)  . . : ?
+    Health  . . . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+    Performance . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+
+   Properties
+   ------------
+    Vendor Information  . . . . . . . . . . . . . . . : ?
+    Status  . . . . . . . . . . . . . . . . . . . . . : OK
+    Version . . . . . . . . . . . . . . . . . . . . . : 0
+    Device Type . . . . . . . . . . . . . . . . . . . : Disk
+    ASC . . . . . . . . . . . . . . . . . . . . . . . : 0
+    ASCQ  . . . . . . . . . . . . . . . . . . . . . . : 0
+
+   SCSI Information
+   ------------------
+    Removable . . . . . . . . . . . . . . . . . . . . : Supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Not supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Disabled
+
+
+
+  -- Physical Disk Information - Disk: #4: Generic- SD/MMC --
+
+   Hard Disk Summary
+   -------------------
+    Hard Disk Number  . . . . . . . . . . . . . . . . : 4
+    Hard Disk Device  . . . . . . . . . . . . . . . . : /dev/sde
+    Interface . . . . . . . . . . . . . . . . . . . . : SCSI
+    Hard Disk Model ID  . . . . . . . . . . . . . . . : Generic- SD/MMC
+    Firmware Revision . . . . . . . . . . . . . . . . : 1.00
+    Hard Disk Serial Number . . . . . . . . . . . . . : ?
+    Total Size  . . . . . . . . . . . . . . . . . . . : 0 MB
+    Current Temperature . . . . . . . . . . . . . . . : ?
+    Maximum Temperature (during Entire Lifespan)  . . : ?
+    Health  . . . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+    Performance . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+
+   Properties
+   ------------
+    Vendor Information  . . . . . . . . . . . . . . . : ?
+    Status  . . . . . . . . . . . . . . . . . . . . . : OK
+    Version . . . . . . . . . . . . . . . . . . . . . : 0
+    Device Type . . . . . . . . . . . . . . . . . . . : Disk
+    ASC . . . . . . . . . . . . . . . . . . . . . . . : 0
+    ASCQ  . . . . . . . . . . . . . . . . . . . . . . : 0
+
+   SCSI Information
+   ------------------
+    Removable . . . . . . . . . . . . . . . . . . . . : Supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Not supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Disabled
+
+
+
+  -- Physical Disk Information - Disk: #5: Generic- M.S./M.S.Pro/HG --
+
+   Hard Disk Summary
+   -------------------
+    Hard Disk Number  . . . . . . . . . . . . . . . . : 5
+    Hard Disk Device  . . . . . . . . . . . . . . . . : /dev/sdf
+    Interface . . . . . . . . . . . . . . . . . . . . : SCSI
+    Hard Disk Model ID  . . . . . . . . . . . . . . . : Generic- M.S./M.S.Pro/HG
+    Firmware Revision . . . . . . . . . . . . . . . . : 1.00
+    Hard Disk Serial Number . . . . . . . . . . . . . : MEMORYSTICK-MG
+    Total Size  . . . . . . . . . . . . . . . . . . . : 0 MB
+    Current Temperature . . . . . . . . . . . . . . . : ?
+    Maximum Temperature (during Entire Lifespan)  . . : ?
+    Health  . . . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+    Performance . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+
+   Properties
+   ------------
+    Vendor Information  . . . . . . . . . . . . . . . : ?
+    Status  . . . . . . . . . . . . . . . . . . . . . : OK
+    Version . . . . . . . . . . . . . . . . . . . . . : 0
+    Device Type . . . . . . . . . . . . . . . . . . . : Disk
+    ASC . . . . . . . . . . . . . . . . . . . . . . . : ?
+    ASCQ  . . . . . . . . . . . . . . . . . . . . . . : 0
+
+   SCSI Information
+   ------------------
+    Removable . . . . . . . . . . . . . . . . . . . . : Supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Not supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Disabled
+
+
+
+  -- Physical Disk Information - Disk: #6: Generic- SD/MMC/M.S.PRO --
+
+   Hard Disk Summary
+   -------------------
+    Hard Disk Number  . . . . . . . . . . . . . . . . : 6
+    Hard Disk Device  . . . . . . . . . . . . . . . . : /dev/sdg
+    Interface . . . . . . . . . . . . . . . . . . . . : SCSI
+    Hard Disk Model ID  . . . . . . . . . . . . . . . : Generic- SD/MMC/M.S.PRO
+    Firmware Revision . . . . . . . . . . . . . . . . : 1.00
+    Hard Disk Serial Number . . . . . . . . . . . . . : ?
+    Total Size  . . . . . . . . . . . . . . . . . . . : 0 MB
+    Current Temperature . . . . . . . . . . . . . . . : ?
+    Maximum Temperature (during Entire Lifespan)  . . : ?
+    Health  . . . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+    Performance . . . . . . . . . . . . . . . . . . . : ? (Unknown)
+
+   Properties
+   ------------
+    Vendor Information  . . . . . . . . . . . . . . . : ?
+    Status  . . . . . . . . . . . . . . . . . . . . . : OK
+    Version . . . . . . . . . . . . . . . . . . . . . : 0
+    Device Type . . . . . . . . . . . . . . . . . . . : Disk
+    ASC . . . . . . . . . . . . . . . . . . . . . . . : 0
+    ASCQ  . . . . . . . . . . . . . . . . . . . . . . : 0
+
+   SCSI Information
+   ------------------
+    Removable . . . . . . . . . . . . . . . . . . . . : Supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Not supported
+    Failure Prediction  . . . . . . . . . . . . . . . : Disabled
+
+
+
+  -- Partition Information --
+
+Logical Drive                           Total Space         Free Space          Free Space %   Used Space            Disk                Block Size  Files        File System  
+/                                       109,300 MB          85,164 MB            78 %          ####----------------  /                   4096        55988928     1481003842   
+/ (Disk #0)                             109,300 MB          85,164 MB            78 %          ####----------------  /dev/sda3           4096        55988928     1481003842   
+/boot (Disk #0)                          1,022 MB              917 MB            90 %          ##------------------  /dev/sda1           4096        0            19780        
+/home (Disk #1)                         848,493 MB          280,380 MB           33 %          #############-------  /dev/sdb4           4096        434640896    1481003842   
+

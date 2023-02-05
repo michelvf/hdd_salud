@@ -1,0 +1,2 @@
+cd /var/www/html/discos/
+./HDSentinel -xml -r reporte.xml
