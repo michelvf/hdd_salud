@@ -54,12 +54,6 @@ function ColorEspacio($valor)
         default: return "primary";
     }
 }
-function formatBytes($bytes, $precision = 2) {
-    if ($bytes > pow(1024,3)) return round($bytes / pow(1024,3), $precision)."GB";
-    else if ($bytes > pow(1024,2)) return round($bytes / pow(1024,2), $precision)."MB";
-    else if ($bytes > 1024) return round($bytes / 1024, $precision)."KB";
-    else return ($bytes)."B";
-}
 
 function particionDisco($xml, $disco, $valor = "")
 {
@@ -67,14 +61,13 @@ function particionDisco($xml, $disco, $valor = "")
     foreach ($xml->Partition_Information->children() as $child)
     {
         $disco1 = substr($child["Disk"],0,-1);
-        if ($disco == $disco1)
+        if (($disco == $disco1) || ($disco == "/dev/nvme0" && $disco1 == ""))
         {
-            $espacio = 100 - substr(str_replace(" ", "", $child["Free_Space_Percent"]), 0, -1);
             $mostrar .= $child["Drive"] . "<br>";
         }
     }
     return $mostrar;
-}
+    }
 
 function porcientoDisco($xml, $disco)
 {
@@ -82,7 +75,7 @@ function porcientoDisco($xml, $disco)
     foreach ($xml->Partition_Information->children() as $child)
     {
         $disco1 = substr($child["Disk"],0,-1);
-        if ($disco == $disco1)
+        if (($disco == $disco1) || ($disco == "/dev/nvme0" && $disco1 == ""))
         {
             $espacio = 100 - substr(str_replace(" ", "", $child["Free_Space_Percent"]), 0, -1);
             $color = ColorEspacio($espacio);
@@ -94,14 +87,14 @@ function porcientoDisco($xml, $disco)
     return $mostrar;
 }
 
+
 function libreDisco($xml, $disco)
 {
-
     $mostrar = "";
     foreach ($xml->Partition_Information->children() as $child)
     {
         $disco1 = substr($child["Disk"],0,-1);
-        if ($disco == $disco1)
+        if (($disco == $disco1) || ($disco == "/dev/nvme0" && $disco1 == ""))
         {
             $valor = $child["Free_Space"];
             if(strchr($valor, "M"))
@@ -120,18 +113,56 @@ function libreDisco($xml, $disco)
     }
     return $mostrar;
 }
+
+function particionDiscos($xml, $disco)
+{
+    $mostrar = "";
+    foreach ($xml->Partition_Information->children() as $child)
+    {
+        $mostrar = "<tr>";
+        $disco1 = substr($child["Disk"],0,-1);
+        if (($disco == $disco1)) //|| ($disco == "/dev/nvme0" && $disco1 == ""))
+        {
+            $mostrar .= "<td>". $child["Drive"] . "</td>";
+
+            $espacio = 100 - substr(str_replace(" ", "", $child["Free_Space_Percent"]), 0, -1);
+            $color = ColorEspacio($espacio);
+            $mostrar .= '<td>';
+            $mostrar .= '<div class="progress mb-2" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">';
+            $mostrar .= '<div class="progress-bar bg-' . $color . '" style="width: '. $espacio . '%; min-width:25px" >' . $espacio . '%</div>';
+            $mostrar .= '</div>';
+            $mostrar .= '</td>';
+
+            $valor = $child["Free_Space"];
+            if(strchr($valor, "M"))
+            {
+                if(strchr($valor, ","))
+                {
+                    $coma = strpos($valor, ",") + 2;
+                    $mostrar .= "<td>" . substr($valor, 0, $coma) . " Gb</td>";
+                } else {
+                    $mostrar .=  "<td>" . $valor . "</td>";    
+                }
+            } else {
+                $mostrar .= "<td>" . $valor . "</td>";
+        	}
+        }
+        $mostrar .= "</tr>";
+    }
+    return $mostrar;
+}
 ?>
 
 <!doctype html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="300">
-    <meta author="michelvf@nauta.cu">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="300" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Hard Disk Sentinel</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link type=»image/x-icon» href=»favicon.ico» rel=»shortcut icon» />
+    <meta author="michelvf@nauta.cu" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
     <style>
         main > .container {
             padding: 60px 15px 0;
@@ -179,7 +210,12 @@ function libreDisco($xml, $disco)
                                     <?php
                                         $disco = $child->Hard_Disk_Summary->Hard_Disk_Device;
                                         $porciento = substr(str_replace(" ", "", $child->Hard_Disk_Summary->Health), 0, -1);
-                                        echo "<b>" . $child->Hard_Disk_Summary->Hard_Disk_Model_ID . "</b>  (" . $child->Hard_Disk_Summary->Total_Size . ")";
+                                        echo "<b>" . $child->Hard_Disk_Summary->Hard_Disk_Model_ID . "</b>  
+                                        <br>(" . $child->Hard_Disk_Summary->Total_Size . ")<br>"
+                                        . $child->Disk_Information->Disk_Family . "<br>"
+                                        . $child->Disk_Information->Form_Factor . "<br>"
+                                        . $child->Disk_Information->Capacity . "<br>";
+
                                     ?>
                                     <br>
                                     <div class="row">
@@ -212,7 +248,7 @@ function libreDisco($xml, $disco)
                                     </div>
                                 </td>
                                 <!-- Particion del disco duro -->
-                                <td class="border-end col-1">
+                                <td class="border-end col-2">
                                     <?php echo particionDisco($xml, $disco); ?>
                                 </td>
                                 <td class="border-end col-2">
@@ -240,7 +276,8 @@ function libreDisco($xml, $disco)
                 </div>
             </div>
         </div>
-    </div></div>
+    </div>
+    </div>
     <footer class="footer mt-auto py-3">
         <div class="container text-center">
             <span class="text-muted">Creado por michelvf@nauta.cu</span>
